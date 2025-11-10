@@ -270,3 +270,46 @@ footer .container {
 footer p {
   font-size: 0.875rem;
 }
+
+/*
+ * Responsive layout adjustments
+ * These media queries ensure the site remains easy to navigate and read on
+ * smaller devices. When the viewport is narrow, navigation links stack
+ * vertically, font sizes scale down, and spacing is adjusted.
+ */
+@media (max-width: 768px) {
+  /* Stack the header elements and navigation on top of each other */
+  header .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* Display nav links as a vertical list */
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  nav a {
+    display: block;
+    padding: 0.5rem 0;
+  }
+
+  /* Reduce heading sizes for better fit */
+  .hero-content h1 {
+    font-size: 2.25rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .products-section h2,
+  .about-text h2,
+  .contact-info h2 {
+    font-size: 2rem;
+  }
+
+  /* Allow product images to shrink naturally */
+  .product-card img {
+    height: auto;
+  }
+}
