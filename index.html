@@ -4,29 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Royal Taste Foods Ltd.</title>
-  <link rel="stylesheet" href="style.css">
   <meta name="description" content="Royal Taste Foods Ltd. – manufacturer of premium mayonnaise and condiments in Zambia. Discover our Prime and Mama Mayonnaise ranges crafted for rich and smooth taste.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header and Navigation -->
+
   <header>
-    <div class="logo">Royal Taste Foods</div>
-
-    <div class="menu-icon" id="menu-icon">
-      &#9776;  <!-- hamburger icon -->
+    <div class="nav-bar">
+      <div class="logo">Royal Taste Foods</div>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <nav id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <nav id="nav-links">
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-</header>
-
-<script src="menu.js"></script>
-
-  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
       <h1>Rich &amp; Smooth Taste</h1>
@@ -35,48 +30,47 @@
     </div>
   </section>
 
-  <!-- Products Section -->
   <section id="products" class="products-section">
     <div class="container">
       <h2>Our Products</h2>
       <div class="product-cards">
-        <!-- Product 1: Prime Mayo -->
         <div class="product-card">
           <img src="images/5221a182-b296-4e4d-9371-f7f88fba8bae.JPG" alt="Prime Mayo Mayonnaise">
-          <h3>Prime Mayo</h3>
-          <p>A premium mayonnaise with a luxurious texture. Perfect for sandwiches, salads and gourmet recipes.</p>
+          <div class="card-body">
+            <h3>Prime Mayo</h3>
+            <p>A premium mayonnaise with a luxurious texture. Perfect for sandwiches, salads and gourmet recipes.</p>
+          </div>
         </div>
-        <!-- Product 2: Mama Mayonnaise -->
         <div class="product-card">
           <img src="images/f9da15fc-626e-41cb-bef4-0ec3e8bb8bf5.JPG" alt="Mama Mayonnaise">
-          <h3>Mama Mayonnaise</h3>
-          <p>A homestyle mayonnaise inspired by traditional flavours. Ideal for family meals and everyday cooking.</p>
+          <div class="card-body">
+            <h3>Mama Mayonnaise</h3>
+            <p>A homestyle mayonnaise inspired by traditional flavours. Ideal for family meals and everyday cooking.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
   <section id="about" class="about-section">
     <div class="container">
       <div class="about-text">
         <h2>About Us</h2>
-        <p>Royal Taste Foods Ltd. is a proudly Zambian food manufacturer committed to crafting exceptional condiments.  From humble beginnings in Lusaka, we've grown into a trusted household name by focusing on quality, consistency and innovation.</p>
-        <p>Our signature Prime and Mama mayonnaise ranges are made with carefully selected ingredients and time‑honoured recipes, ensuring a rich and smooth taste in every jar.  We believe good food brings people together and are dedicated to enhancing your meals with products you can rely on.</p>
+        <p>Royal Taste Foods Ltd. is a proudly Zambian food manufacturer committed to crafting exceptional condiments. From humble beginnings in Lusaka, we've grown into a trusted household name by focusing on quality, consistency and innovation.</p>
+        <p>Our signature Prime and Mama mayonnaise ranges are made with carefully selected ingredients and time-honoured recipes, ensuring a rich and smooth taste in every jar. We believe good food brings people together and are dedicated to enhancing your meals with products you can rely on.</p>
       </div>
       <div class="about-image">
-        <img src="images/91a0d7b9-a074-407c-a7f8-84e4519c1e5b.JPG" alt="Royal Taste Foods office letterhead">
+        <img src="images/91a0d7b9-a074-407c-a7f8-84e4519c1e5b.JPG" alt="Royal Taste Foods office">
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <div class="container">
       <div class="contact-info">
         <h2>Contact Us</h2>
         <p><strong>Address:</strong> Plot No: LUS/9542 off Katanga Road, Chinika Industrial Area, Lusaka, Zambia</p>
-        <p><strong>Telephone:</strong> +260571732548</p>
+        <p><strong>Telephone:</strong> +260 571 732 548</p>
         <p><strong>Email:</strong> <a href="mailto:info@royaltastefoods.com">info@royaltastefoods.com</a></p>
       </div>
       <form action="#" method="post">
@@ -88,12 +82,12 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; 2025 Royal Taste Foods Ltd. All rights reserved.</p>
     </div>
   </footer>
 
+  <script src="menu.js"></script>
 </body>
 </html>
